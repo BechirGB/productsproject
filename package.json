@@ -1,0 +1,25 @@
+{
+  "name": "node-product-project",
+  "version": "1.0.0",
+  "description": "An awsome project",
+  "main": " app.js",
+  "scripts": {
+    "start": "NODE_ENV=prodution node app.js",
+    "dev":"NODE_ENV=devlopement nodemon app.js"
+  },
+  "author": "bechir",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mariadb": "^3.0.2",
+    "sequelize": "^6.28.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon":"2.0.20"
+  }
+}
